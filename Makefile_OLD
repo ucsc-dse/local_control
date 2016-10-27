@@ -1,0 +1,16 @@
+export ARDUINO_DIR=/Applications/Arduino.app/Contents/Java
+export ARDMK_DIR=/users/TheTraveler/Workspace/Arduino/Arduino-Makefile
+export AVR_TOOLS_DIR=$(ARDUINO_DIR)/hardware/tools/avr
+
+export USER_LIB_PATH=/users/TheTraveler/Workspace/Arduino/data_sampler
+export TWI_LIB=$(ARDUINO_DIR)/hardware/tools/avr/libraries/Wire/utility
+
+
+export BOARD_TAG=uno
+export MONITOR_PORT=/dev/cu.usb*
+#export USER_LIB_PATH:=$(USER_LIB_PATH):$(GSM_LIB)
+export ARDUINO_LIBS=Wire SoftwareSerial GSM_Shield
+
+
+
+include $(ARDMK_DIR)/Arduino.mk
