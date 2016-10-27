@@ -1,0 +1,39 @@
+Software Overview
+
+i2c_utility.h
+Code to configure I2C interface, light sensor, and temp sensor.
+Code for data aquisition and formating.
+
+serial_utilty.h
+Code to handle sending and recieving serial data.
+
+main.cpp
+Entry point. Holds AT command sequences 
+for GSM modem control.
+Recieves and formates data from 
+i2c_utility. Packages and sends data
+through the GSM modem.
+
+
+Problem Notes
+'''''''''''''
+Shortcomings of GSM_Shield library:
+    - No way to confirm sim card PIN.
+
+Problem: 
+NewSoftSerial.cpp defines a function:
+virtual void NewSoftSerial::write(uint8_t)
+
+This function is defined in Print.h as
+virtual size_t Print::write(uint8_t)
+
+NewSoftSerial is derived from Print so return types must match.
+
+Solution: 
+Changed return type to 
+size_t NewSoftSerial::write(uint8_t).
+
+The function did not return anything to begin with so 
+I returned 0.
+
+

@@ -1,0 +1,11 @@
+
+Knowledge and Skills Excersised
+- C, C++, Python
+- Build Systems  (Make, Scons)
+- Telecommunications
+- I2C Protocol
+- Serial Protocol
+- Bit Manipulation
+- Debugged communication with Saleae Logic Analyzer
+
+

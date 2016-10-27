@@ -1,0 +1,5 @@
+Makefile Notes
+''''''''''''''
+
+- Only one user library can be defined
+- Line 1154: Library creation. Add specific files here 

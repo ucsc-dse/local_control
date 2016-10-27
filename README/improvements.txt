@@ -1,0 +1,22 @@
+Hardware Improvements
+'''''''''''''''''''''
+- Analog reset circuit
+An analog circuit can monitor the data lines independenty of 
+the software. 
+
+
+
+
+
+
+Software Improvements
+'''''''''''''''''''''
+- Power monitoring
+The circuit is implemented in hardware. Still needs
+to be configured in software.
+
+- Stripping software to metal 
+AVR operation is built on Arduino's firmware. The Data Station software makes use of high level libraries what are unnessesary. Software stripping has been achieved in certain areas:
+
+- Building and uploading is done through a Makefile. 
+This gives flexabili

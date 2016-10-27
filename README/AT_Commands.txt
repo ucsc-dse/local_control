@@ -1,0 +1,57 @@
+GSM AT Commands
+'''''''''''''''
+
+AT&F: Factory settings
+
+
+0,1: registered to home network
+AT+CREG: Network Registration
+    - Displays network registration status.
+
+AT+CGREG: GPRS Network Registration
+    
+
+
+
+AT+COPS: Operator Selection
+    - Registers/displays network operators available.
+
+AT+CPOL: Preferred Operator List
+    - Edit preferred list of networks
+
+AT+COPN: Read Operator Names
+    - Returns a list of operator names from the modem.
+
+AT+CFUN: Set Phone Functionality
+    - Sets level of functionality
+    - 0 minimum functionality
+    - Full functionality
+
+AT+CPIN: Enter PIN
+
+AT+CSQ Signal Strength
+
+AT+IPR Specifies the data rate of data transfer.
+list supported data rates
+
+bauds:
+300
+1200
+2400
+4800
+9600
+19200
+38400
+
+AT+CMEE Mobile Equiptment Errors
+
+AT+PACSP: Network Selection Menu Availability
+
+SIMCOM Commands
+AT+CLTS: Get local timestamp
+
+
+GSM Module Notes
+- Network registration: 
+
+

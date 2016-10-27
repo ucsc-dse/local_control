@@ -1,0 +1,30 @@
+DS1631 Tempurature Sensor
+'''''''''''''''''''''''''
+0x04 is sent to the CONFIG register and 
+enables 11 bit resolution and the enables 
+continuous conversion. Power could be savedby using the sensor's 1SHOT feature when 
+collecting data. The temperature is 
+accessed from the DS1631's 2 byte 
+temperature register. The tempurature is 
+stored as a 16 bit big endian two's complement number.
+
+AVR runs in little endian so a flip is performed inline. 
+
+Software can be updated to enable the DS1631 to store maximum and minimum tempuratures even when power off.
+
+DS1631 can also act as a thermostat. This could drive a tempurature controlled operation.
+
+TCS3490 Light Sensor
+''''''''''''''''''''
+0x03 is sent to the ENABLE register and activates the ADC and powers the device. 
+Light data is stored in 2 byte registers and must be accessed sequentally.
+
+Problem Notes
+''''''''
+Problem: Temp sens stopped working
+Cause:   Address config pins needed to be grounded
+
+Problem: Serial tx pin hangs up
+Cause:	 Unknown. flush() seems to help. 
+
+

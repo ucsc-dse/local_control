@@ -1,0 +1,4 @@
+Git Hub Project Management
+https://github.com/ucsc-dse/local_control
+
+Electronics and Sensor Development

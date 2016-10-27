@@ -1,0 +1,28 @@
+Service Provider: ...
+
+
+
+
+
+TCP/HTTP connection
+'''''''''''''''''''
+A Mobile Station connects via air interface to 
+a Base Station Controller. BSC connects to a 
+Server GPRS Support Node. The SGSN connectes to the 
+Internal Backbone Network which connects to a 
+Gateway GPRS Support Node. The Gateway allows GPRS data to connect to the IP Network. This allows the GPRS can send and recieve 
+TCP/HTTP data.
+
+
+Access to the GPRS network was denied by T-Mobile in the form of 
+CMEE-3 ERRORS. CMEE-3 is caused by having an illegal 
+Moblie Station. 
+
+
+Control Server
+''''''''''''''
+Raspberry Pi?
+
+
+
+

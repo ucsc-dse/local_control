@@ -1,0 +1,44 @@
+UCSC Depth Station Enterprise
+
+-  Controlled by an AVR atmega328p Microcontroller.
+-  Program    Memory: 1KB
+-  Data       Memory: 2  KB SRAM
+				      32 KB Flash
+-  Program      Size: 8  KB
+-  Clock       Speed: 16MHz
+
+Electrical Specs
+-  Operating Voltage: 5V
+-  Operating Current: ??  
+
+Core Hardware: 
+Arduino Microcontroller Board
+Seeed GSM Modem
+
+Data Aquisition
+- DS1631 Temp Sensor
+- TCS3490 Light Sensor
+
+
+
+
+
+
+
+
+In summary improvements to operation include:
+- Implementing fault protection circuitry
+- Implementing power monitoring software
+- Improve C&DH system
+- Consider memory and performace
+- Create dedicated control server
+
+
+BOM
+Arduino Uno
+TCS3490 Light Sensor
+DS1631 Tempurature Sensori
+
+http://www.mouser.com/ProductDetail/Seeed-Studio/113030009/?qs=SElPoaY2y5JQ1QM4E%2FscZA%3D%3D&gclid=CjwKEAjwy8bABRD5osXMovTHpmQSJACfZY0FdzJQ5hjmB909qxZnbLxvPgmuRmjxYMTbqrkRxlY7ixoCgljw_wcB
+
+
